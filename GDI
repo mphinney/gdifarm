@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title></title>
+      <style>
+      
+      body{
+         font: 16px sans-serif; 
+         color: #333; 
+
+         background-color:beige;
+        }
+        h2 {
+          color: #FE5A61;
+
+        }
+        p em, p strong{
+         font-size: 25px; 
+         text-decoration: underline;
+        }
+        ul ul li{
+         color: red;
+        }
+        table td{
+         color: blue;
+        }
+        .location{
+         color: blue;
+        }
+        form{
+         color: maroon;
+        }
+      .required {
+         background-color: #F5DFE3;
+        }
+      </style>
+   </head>
+   <body>
+      <a href="https://www.girldevelopit.com/">
+      <center><img src="http://girldevelopit.github.io/gdi-core-html-css/images/gdi_logo_badge.png" alt="Girl Develop It Logo" height="200"></center>
+
+      </a>
+      <h2>About</h2>
+      <p class="about">
+         It can be intimidating for women to learn and ask questions when they are in an <strong>extreme minority</strong>. While open and welcoming, today's budding developer community is up to <strong>91% male</strong>. If we empower more females with the confidence in their technological capabilities <em>we can being to change this landscape</em>.
+      </p>
+      <h2>Our Locations</h2>
+      <ul>
+      <li><strong>USA</strong></li>
+      <ul>
+         <li> 
+            <a href= "https://www.girldevelopit.com/chapters/new-york">New York
+            </a>
+         </li>
+         <li> 
+            <a href= "https://www.girldevelopit.com/chapters/columbus">Colombus
+            </a>
+         </li>
+         <li> 
+            <a href="https://www.girldevelopit.com/chapters/austin">Austin
+            </a> 
+         </li>
+         <li> 
+            <a href="https://www.girldevelopit.com/chapters/philadelphia">Philly
+            </a> 
+         </li>
+      </ul>
+      <li><strong>World</strong></li>
+      <ul>
+         <li> 
+            <a href="https://www.girldevelopit.com/chapters/ottawa">Ottawa
+            </a> 
+         </li>
+         <li> 
+            <a href="https://www.girldevelopit.com/chapters/sydney">Sydney
+            </a> 
+         </li>
+         <!--cant find this chapter online-->
+      </ul>
+      <br>
+
+      <h2>Upcoming Classes</h2>
+      <table border="1">
+         <thead>
+            <tr>
+               <th>Location</th>
+               <th>Topic</th>
+            </tr>
+            </tbody>
+            <tr>
+               <td>New York</td>
+               <td>JavaScript & jQuery</td>
+            </tr>
+            <tr>
+               <td>San Francisco</td>
+               <td>HTML & CSS</td>
+            </tr>
+      </table>
+
+      <h2> Sign Up!</h2>
+      <form action="http://imagine-it.org/processform.php" method="post">
+      <label> Name: <input type= "text" name="name">
+      <br>
+      <label> Email: <input type= "text" name="email">
+      <br>
+      <label> Location:
+      <label for="location"Location:</label>
+         <select name="location" id= "location">
+            <option value="san francisco">San Francisco</option>
+         </select>
+           <br>
+      <fieldset>
+         <legend>Gender:</legend>
+         <input type="radio" name="female" id="female">
+         <label for="female">Female</label>
+         <input type="radio" name="male" id="male">
+         <label for="male">Male</label>
+      </fieldset>
+           <br>
+      <label>Experience: <br>
+         <textarea name="experience"></textarea>
+           <br>
+      <button type="submit">Sign Up</button>
+      <br>
+      <br>
+
+      <a href="https://twitter.com/girldevelopit?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+      <img src= "https://lh3.ggpht.com/lSLM0xhCA1RZOwaQcjhlwmsvaIQYaP3c5qbDKCgLALhydrgExnaSKZdGa8S3YtRuVA=w300" alt = "Twitter" height = "50">
+      </a>
+      <a href="https://www.facebook.com/girldevelopit/">
+      <img src="http://plannerslounge.com/wp-content/uploads/2013/05/facebook-logo.jpg" alt = "Facebook" height = "50">
+      </a>
+      <a href ="https://www.flickr.com/photos/40453677@N00/sets/72157626841092971/">
+      <img src="http://images.en.yibada.com/data/images/full/44764/yahoo-flickr-logo.jpg" alt= "Flickr" height ="50">
+      </a>
+
+   </body>
+</html>
